@@ -1,0 +1,17 @@
+
+
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 1.2rem;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: rgb(27, 58, 85);
+}
