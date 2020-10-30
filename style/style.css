@@ -1,14 +1,20 @@
+* {
+    display: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 
 .nav-list {
     display: flex;
     flex-direction: row;
     list-style: none;
+    width: 90%;
 }
 
 .nav-item {
-    padding: 1.1rem;
-    border-radius: 25px;
-    margin-right: 10%;
+    padding: 3rem;
+    border-radius: 45px;
     background-color: rgb(43, 149, 255);
     opacity: .8;
 }
