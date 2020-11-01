@@ -10,8 +10,7 @@ body {
 /* Start Nav  */
 .nav {
     margin: auto;
-    width: 95%;
-    background: rgb(227, 234, 240);
+    background: rgb(103, 158, 207);
     padding: 20px
 }
 
@@ -28,8 +27,10 @@ body {
     padding: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    border-radius: 200px;
-    background-color: rgb(136, 168, 201);
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(236, 242, 248);
     margin: 5px;
     opacity: .8;
 }
