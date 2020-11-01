@@ -7,6 +7,10 @@
 body {
     background-image: url('../img/us.jpg');
 }
+
+.hidden {
+    display: none;
+}
 /* Start Nav  */
 .nav {
     margin: auto;
@@ -53,7 +57,7 @@ body {
 /* Beginning Article  */
 .content {
     text-align: center;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 .article-link {
