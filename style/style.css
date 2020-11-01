@@ -1,9 +1,11 @@
-
-
 * {
     display: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-image: url('../img/us.jpg');
 }
 /* Start Nav  */
 .nav {
@@ -69,11 +71,11 @@
 }
 
 .news-event:hover {
-    opacity: .6;
+    opacity: .9;
 }
 
 .news-event h1 {
-    color: rgb(201, 55, 55);
+    color: rgb(206, 86, 86);
 }
 
 .news-event p {
@@ -107,6 +109,9 @@
         padding-right: .7rem;
     }
   }
+  /* End Nav media queryies  */
+
+  /* Begin Content media queryies  */
 
   @media only screen and (min-width: 1000px) {
     .article-link {
@@ -116,19 +121,5 @@
 
     }
   }
-  /* End Nav media queryies  */
-
-  /* Begin Content media queryies  */
-
-
-
-
-
-
-
-
-
-
-
 
     /* End Content media queryies  */
