@@ -7,16 +7,17 @@
 body {
     background-image: url('../img/us.jpg');
     background-repeat: no-repeat;
-    background-size: 2000px, 2000px;
+    background-size: 1800px, 1800px;
 }
 
 .hidden {
     display: none;
 }
 /* Start Nav  */
+
 .nav {
     margin: auto;
-    background: rgb(238, 211, 90);
+    background: rgb(216, 193, 100);
     padding: 20px
 }
 
@@ -85,7 +86,7 @@ body {
 }
 
 .news-event h1 {
-    color: rgb(206, 86, 86);
+    color: rgb(207, 111, 56);
 }
 
 .news-event p {
@@ -95,6 +96,17 @@ body {
 
 /* End Article  */
 
+  /* Begin Body media queryies  */
+
+  @media only screen and (max-width: 600px) {
+    body {
+        background-image: url('../img/us.jpg');
+        background-repeat: no-repeat;
+        background-size: 4000px, 600px;
+    }
+  }
+
+    /* End Body media queryies  */
 
 
 
