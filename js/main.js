@@ -6,8 +6,6 @@ function moveHidden(id) {
     }
 
    let activateElement = document.getElementsByClassName(id);
-   for (i = 0; i < activateElement.length; i ++) {
-    activateElement[i].className -= ' hidden';
-   }
+   activateElement.className  = activateElement.className.replace("hidden", "")
 
 }
