@@ -5,7 +5,7 @@ function moveHidden(id) {
         articleCollection[i].className += ' hidden';
     }
 
-   let activateElement = document.getElementsByClassName(id);
-   activateElement.className  = activateElement.className.replace("hidden", "")
+    var international_div = document.querySelector("." + id);
+    international_div.className -= ' hidden';
 
 }
