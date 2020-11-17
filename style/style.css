@@ -12,6 +12,7 @@ body {
 
 .hidden {
     visibility: hidden;
+    display: none;
 }
 
 /* Start Nav  */

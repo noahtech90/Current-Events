@@ -7,6 +7,7 @@ function moveHidden(id) {
 
     var div = document.querySelector("." + id);
     console.log(div);
-    div.classList.replace(' hidden', '');
+    div.classList.remove('hidden')
+    console.log(div.classList)
 
 }
