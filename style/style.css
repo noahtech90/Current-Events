@@ -11,12 +11,9 @@ body {
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
 }
 
-.active {
-    display: inherit;
-}
 /* Start Nav  */
 
 .nav {
