@@ -101,11 +101,18 @@ body {
 /* Beginning Footer  */
 
 .footer {
-    padding: 1rem;;
+    padding: 1rem;
+    color: white;
 }
 
-.footer-table {
-    color: white;
+.footer h2{
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+
+.footer-table td {
+    padding: 1rem;
 }
 
 
