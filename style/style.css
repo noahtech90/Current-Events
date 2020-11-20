@@ -98,6 +98,21 @@ body {
 
 /* End Article  */
 
+/* Beginning Footer  */
+
+.footer {
+    padding: 1rem;;
+}
+
+.footer-table {
+    color: white;
+}
+
+
+
+
+/* End Footer  */
+
   /* Begin Body media queryies  */
 
   @media only screen and (max-width: 600px) {
