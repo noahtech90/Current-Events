@@ -118,7 +118,6 @@ body {
 
 .outer-outline {
     background-color: lightblue;
-    justify-content: center;
     margin-top: 30px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -128,14 +127,23 @@ body {
 .inner-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.inner-form input{
+.inner-form input, select{
     width: 80%;
-
+    padding: 10px;
     text-align: center;
+    margin: auto;
 }
+
+.inner-form label, .btn{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
 
 /* End Submit New Site Form  */
 
