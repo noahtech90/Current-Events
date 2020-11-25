@@ -98,23 +98,16 @@ body {
 
 /* End Article  */
 
-/* Beginning Footer  */
-
-.footer {
-    padding: 1rem;
-    color: lightblue;
-}
-
-.footer h2{
+/* Beginning Bottom  */
+.bottom-btn {
+    justify-content: center;
     text-align: center;
-    padding-bottom: .5rem;
+    margin: auto;
 }
+.btn {
+    width: 50%;
 
-
-.footer-table td {
-    padding: 1rem;
 }
-
 
 
 
