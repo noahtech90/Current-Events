@@ -99,16 +99,17 @@ body {
 /* End Article  */
 
 /* Beginning Bottom  */
-.bottom-btn {
+.add-new {
     justify-content: center;
     text-align: center;
     margin: auto;
+
 }
 .btn {
     width: 50%;
-
+    padding: 5px;
+    margin-bottom: 20px;
 }
-
 
 
 /* End Footer  */
