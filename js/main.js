@@ -9,5 +9,4 @@ function moveHidden(id) {
     console.log(div);
     div.classList.remove('hidden')
     console.log(div.classList)
-
 }

@@ -112,7 +112,33 @@ body {
 }
 
 
-/* End Footer  */
+/* End Bottom  */
+
+/* Submit New Site Form  */
+
+.outer-outline {
+    background-color: lightblue;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 6rem;
+}
+
+.inner-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-form input{
+    width: 80%;
+
+    text-align: center;
+}
+
+/* End Submit New Site Form  */
+
 
   /* Begin Body media queryies  */
 
@@ -125,6 +151,7 @@ body {
   }
 
     /* End Body media queryies  */
+
 
 
 
