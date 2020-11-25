@@ -10,3 +10,11 @@ function moveHidden(id) {
     div.classList.remove('hidden')
     console.log(div.classList)
 }
+
+function addNew() {
+    title = document.getElementById('title');
+    description = document.getElementById('descript');
+    link = document.getElementById('link');
+    category = document.getElementById('category');
+    
+}
