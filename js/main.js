@@ -12,9 +12,12 @@ function moveHidden(id) {
 }
 
 function addNew() {
-    title = document.getElementById('title');
-    description = document.getElementById('descript');
-    link = document.getElementById('link');
-    category = document.getElementById('category');
-    
+    title = document.getElementById('title').value;
+    description = document.getElementById('descript').value;
+    link = document.getElementById('link').value;
+    category = document.getElementById('category').value;
+}
+
+function appendPage() {
+    var main = window.open('index.html')
 }
