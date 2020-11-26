@@ -16,8 +16,16 @@ function addNew() {
     description = document.getElementById('descript').value;
     link = document.getElementById('link').value;
     category = document.getElementById('category').value;
+
+    return [title, description, link, category]
 }
 
-function appendPage() {
+function appendPage(newPage) {
     var main = window.open('index.html')
+    main.onload = function(){
+        const newDiv = document.createElement("div");
+
+        const newTitle = document.createTextNode()
+
+    }
 }
