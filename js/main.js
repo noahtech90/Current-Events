@@ -24,8 +24,16 @@ function appendPage(newPage) {
     var main = window.open('index.html')
     main.onload = function(){
         const newDiv = document.createElement("div");
+        const newLink = document.createElement("a")
 
-        const newTitle = document.createTextNode()
+        const newTitle = document.createTextNode(newPage[0]);
+        const newDescript = document.createTextNode(newPage[1]);
+        const newLinkText = document.createTextNode(newPage[2]);
+        main.body.appendChild(newDiv);
+        newDiv.appendChild(newLink);
+        newLink.appendChild(newTitle);
+        
+
 
     }
 }
