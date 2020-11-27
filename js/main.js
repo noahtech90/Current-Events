@@ -21,18 +21,18 @@ function addNew() {
 }
 
 function appendPage(newPage) {
-    newPage = addNew()
-    var main = window.open('index.html')
+    newPage = addNew();
+    var main = window.open('index.html');
     main.onload = function(){
-        const newDiv = document.createElement("div");
-        const newLink = document.createElement("a");
+        var newDiv = main.document.createElement("div");
+        var newLink = main.document.createElement("a");
         newLink.innerHTML = "Test"
 
-        const newTitle = document.createTextNode(newPage[0]);
-        const newDescript = document.createTextNode(newPage[1]);
-        const newLinkText = document.createTextNode(newPage[2]);
+        var newTitle = main.document.createTextNode(newPage[0]);
+        var newDescript = main.document.createTextNode(newPage[1]);
+        var newLinkText = main.document.createTextNode(newPage[2]);
         
-        main.body.appendChild(newDiv);
+        main.document.body.appendChild(newDiv);
         newDiv.setAttribute("id", "newestDiv")
         newDiv.appendChild(newLink);
         newDiv.appendChild(newTitle);
