@@ -22,6 +22,7 @@ function addNew() {
 
 function appendPage(newPage) {
     newPage = addNew();
+    console.log(newPage)
     var main = window.open('index.html');
     main.onload = function(){
         var newDiv = main.document.createElement("div");
