@@ -8,7 +8,6 @@ function moveHidden(id) {
     var div = document.querySelector("." + id);
     console.log(div);
     div.classList.remove('hidden')
-    console.log(div.classList)
 }
 
 function addNew() {
@@ -21,10 +20,13 @@ function addNew() {
 }
 
 function appendPage(newPage) {
+    
     newPage = addNew();
-    console.log(newPage)
+
+
     var main = window.open('index.html');
     main.onload = function(){
+        alert("on page")
         var newDiv = main.document.createElement("div");
         var newLink = main.document.createElement("a");
         newLink.innerHTML = "Test"
