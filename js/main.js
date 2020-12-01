@@ -20,7 +20,7 @@ function addNew() {
 }
 
 function appendPage(newPage) {
-    
+    // Collect variables from form
     newPage = addNew();
 
 
