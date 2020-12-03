@@ -27,7 +27,7 @@ function appendPage(newPage) {
     var main = window.open('index.html');
     main.onload = function(){
         document.addEventListener("DOMContentLoaded", ready);
-        alert("test")
+        alert("test");
         var newDiv = main.document.createElement("div");
         var newLink = main.document.createElement("a");
         newLink.innerHTML = "Test"
